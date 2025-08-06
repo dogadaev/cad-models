@@ -23,7 +23,7 @@ mount_inner_diameter  = board_mount_diameter + mount_tolerance;
 mount_wall_thickness  = 1.5;
 mount_outer_diameter  = mount_inner_diameter + mount_wall_thickness * 2;
 mount_offset_start    = 3.5;
-mount_offset_end      = 23.5;
+mount_offset_end      = 23.5;
 mount_offset_vertical = - box_height / 2 + mount_height / 2 + box_wall_thickness;
 screw_mount_matrix = [
     [-1, 1, 1, -1],
